@@ -12,4 +12,4 @@ galaxy_info:
   categories:
   - database:sql
 dependencies:
-  - { role: "azavea-postgresql" }
+  - { role: "ansible-postgresql" }
