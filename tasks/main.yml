@@ -1,4 +1,7 @@
 ---
+- debug: 
+    msg: "In miao-bpl, ansible-postgis, tasks/main.yml. postgresql_version is {{ postgresql_version }}, postgis_version is {{ postgis_version }}, and postgis_package_version is {{ postgis_package_version }}  "
+    
 - name: Configure the PostgreSQL APT key
   apt_key: url=https://www.postgresql.org/media/keys/ACCC4CF8.asc state=present
 
